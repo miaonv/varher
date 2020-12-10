@@ -1,0 +1,41 @@
+
+/*! verher-nav 2020-12-10 | verher.com/nav/ | (c) | kmin */
+/* ==============================================================================*/
+.dot {background-image:url(../images/dot.gif); }
+@font-face {
+  font-family: "futura-lt-light";
+  src: url('../fonts/futura-lt-light.eot');
+  src: url("../fonts/futura-lt-light.svg") format("svg"),
+       url("../fonts/Futura-LT-Light.ttf")  format("truetype"),
+       url("../fonts/futura-lt-light.woff") format("woff");
+      font-weight: normal;
+      font-style: normal;
+}
+/*初始化*/
+html {font: normal 14px / 20px "futura-lt-light","PG__FTN36__W", "Helvetica Neue", Helvetica, Arial, sans-serif; line-height: 25px; }
+body,ul, li {padding: 0; margin: 0; list-style-type: none; }
+h1, h2, h3, h4, h5, h6 {font-family: "futura-lt-light","PG__FTN36__W", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 600;}
+a {text-decoration: none !important; color: #333; }
+a:hvoer {text-decoration: none; color: #F03957!important;}
+img {border-style: none; max-width: 100%;}
+::selection {background: #fe2c55; color: #fff; }
+::-moz-selection {background: #fe2c55; color: #fff; }
+li {list-style-type: none; }
+.w {
+  max-width: 750px;
+  margin: 0 auto;
+  border-top: 1px solid #fafafa;
+}
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 70px;
+  background: #fff;
+  border-bottom: 1px solid rgba(34,90,89,0.2);
+  z-index: 1000;
+}
+
+.min {}
