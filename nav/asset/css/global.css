@@ -37,5 +37,16 @@ li {list-style-type: none; }
   border-bottom: 1px solid rgba(34,90,89,0.2);
   z-index: 1000;
 }
+.header .inner {padding: 18px 12px 0 20px ;}
+
+
+.logoname {
+  font-size: 24px;
+  font-weight: bold;
+  background: #fe2c55; 
+  color: #fff;
+  display: inline-block;
+  padding: 5px 10px;
+}
 
 .min {  }
